@@ -1,0 +1,95 @@
+/*veryeasy*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+.board{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+
+}
+.black{
+    background-color: black;
+    width: 50px;
+}
+.white{
+    background-color: white;
+    width: 50px;
+}
+.chess{
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+/*Easy*/
+
+table{
+    height: 456px;
+    width: 800px;
+}
+table td{
+    border: solid 0px;
+    border-collapse: collapse;
+}
+tr:nth-last-child(odd){
+ background-color:red;  
+}
+tr:nth-child(even){
+    background-color: white;
+}
+.easy{
+    margin:30px;
+    background: rgba(17, 94, 107, 0.918);
+   
+}
+.starts{
+    background-color: blue;
+    width: 288px;
+    height: 245px;
+    margin-top: -455px;
+}
+.pstart{
+    color: #fffeff;
+    font-size: 33px;
+    line-height: 22px;
+    letter-spacing: 17px;
+    text-align: center;
+}
+.name{
+    padding-bottom: 25px;
+}
+
+/*Medium*/
+
+.gridcontainer{
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1em;
+    margin: 10vw;
+}
+.gridcontainer .products{
+    background: #eee;
+    padding: 1em;
+}
+.gridcontainer .products:nth-child(odd){
+    background: #ddd;
+}
+/*.griddescription{
+    color: #8a788a;
+    font-size: 20px;
+    line-height: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+}*/
+/*.image{
+    align-items: center;
+    padding: auto;
+    width:100%
+}*/
+h3{
+    text-align: center;
+}
