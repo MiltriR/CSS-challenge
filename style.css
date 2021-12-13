@@ -72,11 +72,11 @@ tr:nth-child(even){
     margin: 10vw;
 }
 .gridcontainer .products{
-    background: #eee;
+    background: rgb(245, 196, 196);
     padding: 1em;
 }
 .gridcontainer .products:nth-child(odd){
-    background: #ddd;
+    background: rgb(235, 191, 191);
 }
 /*.griddescription{
     color: #8a788a;
@@ -92,4 +92,15 @@ tr:nth-child(even){
 }*/
 h3{
     text-align: center;
+}
+.gridchallenge{
+    background: rgba(189, 164, 181, 0.795)
+}
+.mediumtext{
+    text-align: center;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.315);
+    margin-top: 50px;
+    font-size: 2em;
+    margin: 50px;
 }
